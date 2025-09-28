@@ -33,7 +33,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 llm = ChatOpenAI(
     model_name="gpt-3.5-turbo",
     temperature=0,
-    openai_api_key="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"
+    openai_api_key="<enter>"
 )
 
 # rest of your imports and RAG pipeline code go here...
